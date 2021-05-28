@@ -7,7 +7,7 @@ module.exports = {
     commonjs: true,
   },
   // パーサー
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   // jsx を使います
   parserOptions: {
     ecmaVersion: 2018,
@@ -15,27 +15,27 @@ module.exports = {
       jsx: true,
     },
     // import 文でモジュールを使用します
-    sourceType: "module",
+    sourceType: 'module',
   },
   // React のバージョンは自動検出に
   settings: {
     react: {
-      version: "detect",
+      version: 'detect',
     },
   },
-  plugins: ["react-hooks", "react", "@typescript-eslint"],
+  plugins: ['react-hooks', 'react', '@typescript-eslint'],
   extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "prettier",
+    'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'prettier',
   ],
   rules: {
-    "no-console": "warn",
-    // "quotes": ["warn", "single"],
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off",
+    'no-console': 'warn',
+    "quotes": ["warn", "single"],
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
   },
 };

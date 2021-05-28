@@ -1,6 +1,10 @@
 const App = () => {
-  const say = "hello";
-  console.log("aaa");
+  const say = 'hello';
+  const test = {
+    hati: 'mitu',
+    desu: '.',
+  };
+  console.log('aaa');
 
   return <div>hello</div>;
 };
