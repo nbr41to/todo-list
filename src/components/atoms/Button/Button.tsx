@@ -1,4 +1,5 @@
 import React, { VFC } from 'react';
+import styled from 'styled-components';
 
 export interface ButtonProps {
   /**
@@ -49,3 +50,7 @@ export const Button: VFC<ButtonProps> = ({
     </button>
   );
 };
+
+const StyledButton = styled.div`
+  color: tomato;
+`;
