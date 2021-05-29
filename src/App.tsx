@@ -1,3 +1,5 @@
+import { Button } from './components/atoms/Button/Button';
+
 const App = () => {
   const say = 'hello';
   const test = {
@@ -6,7 +8,7 @@ const App = () => {
   };
   console.log('aaa');
 
-  return <div>hello</div>;
+  return <div className='hello'><Button label='BUTTON' /></div>;
 };
 
 export default App;
